@@ -1,0 +1,46 @@
+.navbar {
+    background-color: #868686;
+}
+
+.brand-logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.todo-brand-name {
+    color: #02a10a;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.box-brand-name {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.item-list {
+    font-weight: bold;
+    color: rgb(243, 243, 243);
+}
+
+@media screen and (min-width: 300px) and (max-width: 575px) {
+    /* Apply styling for screens between 300px and 575px */
+    .brand-logo {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .todo-brand-name {
+        color: #02a10a;
+        font-weight: bold;
+        font-size: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        background-color: white;
+        padding: 2px;
+        border-radius: 10px;
+    }
+  }
+
